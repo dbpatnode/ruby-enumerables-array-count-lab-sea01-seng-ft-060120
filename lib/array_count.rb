@@ -4,7 +4,7 @@ end
 
 def count_strings(array)
   array.count do |string|
-   array = array.class(String)
+   array = array.class(string)
   end
 end
 

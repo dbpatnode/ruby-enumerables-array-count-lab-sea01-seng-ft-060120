@@ -4,9 +4,9 @@ end
 
 def count_strings(array)
   array.count do |string|
-    array.class() == String
+    array.class(String)
   end
-  array.count
+  array.count.class(String)
 end
 
 def count_empty_strings(array)
